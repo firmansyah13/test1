@@ -6,7 +6,7 @@ var conn = mysql.createConnection({
   // password: "password",
   // database: "sekolah_api"
   
-  server: "sql6.freemysqlhosting.net",
+  host: "sql6.freemysqlhosting.net",
   user: "sql6417348",
   password: "cckq72NaeZ",
   database: "sql6417348"
