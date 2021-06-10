@@ -4,7 +4,7 @@ var conn = require('../config/mysql');
 var withAuth = require('./middleware');
 
 /* GET karyawan listing. */
-router.get('/', withAuth, function (req, res) {
+router.get('/', function (req, res) {
     conn.query('SELECT * FROM rapot', function (error, results) {
         if (error) throw error;
         // console.log('user' + results)
